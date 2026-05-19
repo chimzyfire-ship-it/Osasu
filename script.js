@@ -43,8 +43,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // ---- Scroll reveal animations ----
 function initReveal() {
   const revealEls = document.querySelectorAll(
-    '.about-text, .about-image, .venture-card, .gallery-item, .media-card, ' +
-    '.quote-inner, .contact-left, .contact-form-wrap, .gallery-header, .media-header'
+    '.about-hero, .about-text, .about-facts, .about-story, .about-image, .about-narrative, .about-quote-card, .about-cta, ' +
+    '.ventures-intro, .venture-card, .ventures-principles, .principle-card, .ventures-cta, ' +
+    '.gallery-item, .media-card, .quote-inner, .contact-left, .contact-form-wrap, .gallery-header, .media-header'
   );
   revealEls.forEach(el => el.classList.add('reveal'));
 
