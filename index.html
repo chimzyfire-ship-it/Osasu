@@ -291,22 +291,22 @@
       <h2 class="gallery-title" id="gallery-title">Crafted for the<br /><em>extraordinary.</em></h2>
     </div>
     <div class="gallery-grid" id="gallery-grid">
-      <div class="gallery-item gallery-item--tall" id="gallery-item-1">
+      <button class="gallery-item gallery-item--tall lightbox-trigger" id="gallery-item-1" type="button" data-lightbox-group="spaces" data-lightbox-src="image assets /Building 1.jpg" data-lightbox-alt="Osaka Apartments exterior" data-lightbox-caption="Osaka Apartments · Benin City">
         <img src="image assets /Building 1.jpg" alt="Osaka Apartments exterior" />
         <div class="gallery-overlay"><span>Osaka Apartments · Benin City</span></div>
-      </div>
-      <div class="gallery-item" id="gallery-item-2">
+      </button>
+      <button class="gallery-item lightbox-trigger" id="gallery-item-2" type="button" data-lightbox-group="spaces" data-lightbox-src="image assets /Interrior 1.jpg" data-lightbox-alt="Luxury bedroom interior" data-lightbox-caption="Premium Suite Interior">
         <img src="image assets /Interrior 1.jpg" alt="Luxury bedroom interior" />
         <div class="gallery-overlay"><span>Premium Suite Interior</span></div>
-      </div>
-      <div class="gallery-item" id="gallery-item-3">
+      </button>
+      <button class="gallery-item lightbox-trigger" id="gallery-item-3" type="button" data-lightbox-group="spaces" data-lightbox-src="image assets /Interrior 2.jpg" data-lightbox-alt="Open plan living interior" data-lightbox-caption="Open Plan Living">
         <img src="image assets /Interrior 2.jpg" alt="Open plan living interior" />
         <div class="gallery-overlay"><span>Open Plan Living</span></div>
-      </div>
-      <div class="gallery-item gallery-item--wide" id="gallery-item-4">
+      </button>
+      <button class="gallery-item gallery-item--wide lightbox-trigger" id="gallery-item-4" type="button" data-lightbox-group="spaces" data-lightbox-src="image assets /interrior 3.jpg" data-lightbox-alt="Tokyo Residencies staircase" data-lightbox-caption="Tokyo Residencies · Abuja">
         <img src="image assets /interrior 3.jpg" alt="Tokyo Residencies staircase" />
         <div class="gallery-overlay"><span>Tokyo Residencies · Abuja</span></div>
-      </div>
+      </button>
     </div>
   </section>
 
@@ -318,19 +318,19 @@
         <h2 class="media-title" id="media-title">The Man Behind<br /><em>the Brand.</em></h2>
       </div>
       <div class="media-mosaic" id="media-mosaic">
-        <div class="media-card media-card--hero" id="media-card-1">
+        <button class="media-card media-card--hero lightbox-trigger" id="media-card-1" type="button" data-lightbox-group="media" data-lightbox-src="image assets /Osasu 4.jpg" data-lightbox-alt="Osasu Idahosa — cultural look" data-lightbox-caption="Osasu Idahosa — featured portrait">
           <img src="image assets /Osasu 4.jpg" alt="Osasu Idahosa — cultural look" />
-        </div>
-        <div class="media-card" id="media-card-2">
+        </button>
+        <button class="media-card lightbox-trigger" id="media-card-2" type="button" data-lightbox-group="media" data-lightbox-src="image assets /Osasu 2.jpg" data-lightbox-alt="Osasu Idahosa — evening style" data-lightbox-caption="Osasu Idahosa — evening style">
           <img src="image assets /Osasu 2.jpg" alt="Osasu Idahosa — evening style" />
-        </div>
-        <div class="media-card" id="media-card-3">
+        </button>
+        <button class="media-card lightbox-trigger" id="media-card-3" type="button" data-lightbox-group="media" data-lightbox-src="image assets /Osasu 3.jpg" data-lightbox-alt="Osasu Idahosa with friend" data-lightbox-caption="Osasu Idahosa — personal moment">
           <img src="image assets /Osasu 3.jpg" alt="Osasu Idahosa with friend" />
-        </div>
-        <div class="media-card media-card--family" id="media-card-4">
+        </button>
+        <button class="media-card media-card--family lightbox-trigger" id="media-card-4" type="button" data-lightbox-group="media" data-lightbox-src="image assets /Osasu and mother.jpg" data-lightbox-alt="Osasu Idahosa with Archbishop Margaret Idahosa" data-lightbox-caption="With Mama — Archbishop Margaret Idahosa">
           <img src="image assets /Osasu and mother.jpg" alt="Osasu Idahosa with Archbishop Margaret Idahosa" />
           <div class="media-family-tag">With Mama — Archbishop Margaret Idahosa</div>
-        </div>
+        </button>
       </div>
     </div>
   </section>
@@ -424,6 +424,19 @@
       <p class="footer-copy" id="footer-copy">© 2025 Osasu Idahosa — J's Luxury. All rights reserved.</p>
     </div>
   </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption">
+      <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close image viewer">×</button>
+      <button class="lightbox-nav lightbox-nav--prev" id="lightbox-prev" type="button" aria-label="Previous image">‹</button>
+      <figure class="lightbox-figure">
+        <img class="lightbox-image" id="lightbox-image" src="" alt="" />
+        <figcaption class="lightbox-caption" id="lightbox-caption"></figcaption>
+      </figure>
+      <button class="lightbox-nav lightbox-nav--next" id="lightbox-next" type="button" aria-label="Next image">›</button>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
