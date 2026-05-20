@@ -14,6 +14,17 @@
 </head>
 <body>
 
+  <!-- ============ SPLASH SCREEN ============ -->
+  <div class="splash-screen" id="splash-screen">
+    <div class="splash-content">
+      <div class="splash-logo">
+        <span class="splash-j">J's</span>
+        <span class="splash-luxury">LUXURY</span>
+      </div>
+      <div class="splash-line"></div>
+    </div>
+  </div>
+
   <!-- ============ NAVBAR ============ -->
   <nav class="navbar" id="navbar">
     <div class="nav-brand">
@@ -22,6 +33,7 @@
     </div>
     <ul class="nav-links" id="nav-links">
       <li><a href="#about" id="nav-about">About</a></li>
+      <li><a href="#ecosystem" id="nav-ecosystem">Ecosystem</a></li>
       <li><a href="#ventures" id="nav-ventures">Ventures</a></li>
       <li><a href="#media" id="nav-media">Media</a></li>
       <li><a href="#contact" id="nav-contact">Contact</a></li>
@@ -36,7 +48,7 @@
   <section class="hero" id="hero">
     <div class="hero-bg-overlay"></div>
     <div class="hero-image-wrap">
-      <img src="image assets /Osasu 1 main.jpg" alt="Osasu Idahosa — J's Luxury" class="hero-img" id="hero-main-img" />
+      <img src="image-assets/Osasu 1 main.jpg" alt="Osasu Idahosa — J's Luxury" class="hero-img" id="hero-main-img" />
     </div>
     <div class="hero-content">
       <p class="hero-tagline" id="hero-tagline">VISION. PURPOSE. LEGACY.</p>
@@ -108,7 +120,9 @@
 
       <div class="about-story">
         <div class="about-image reveal" id="about-image-wrap">
-          <img src="image assets /Building two .jpg" alt="Osaka Apartments Benin City — J's Luxury" id="about-building-img" />
+          <video class="about-story-video" autoplay muted playsinline loop preload="auto" poster="image-assets/Building 1.jpg">
+            <source src="video-assets/Tokyo Residences benin 1.mp4" type="video/mp4">
+          </video>
         </div>
         <div class="about-narrative reveal">
           <div class="about-narrative-copy">
@@ -158,6 +172,64 @@
     </div>
   </section>
 
+  <!-- ============ J'S LUXURY ECOSYSTEM ============ -->
+  <section class="ecosystem" id="ecosystem">
+    <div class="ecosystem-shell">
+      <div class="ecosystem-header reveal">
+        <p class="section-label">THE ECOSYSTEM <span class="label-line"></span></p>
+        <h2 class="ecosystem-title">Osasu J Idahosa:<br />Architect of the Modern Luxury Experience</h2>
+      </div>
+
+      <div class="ecosystem-intro-grid reveal">
+        <div class="ecosystem-intro-highlight">
+          <p>At the intersection of visionary leadership and uncompromising quality stands Osasu J Idahosa, the Founder and CEO of <em>J’S Luxury</em>.</p>
+        </div>
+        <div class="ecosystem-intro-desc">
+          <p>More than a traditional conglomerate, J’S Luxury has evolved under his stewardship into a premier lifestyle ecosystem—a dynamic portfolio spanning hospitality, real estate, fashion, and sustainable agriculture.</p>
+          <p>Driven by a relentless pursuit of excellence, Mr. Idahosa has built a trusted, forward-thinking brand that doesn't just participate in industries, but elevates them. His approach is rooted in a singular philosophy: every touchpoint should deliver a memorable, high-impact experience.</p>
+        </div>
+      </div>
+
+      <h3 class="ecosystem-subtitle reveal">The Four Pillars of J'S Luxury</h3>
+      
+      <div class="ecosystem-pillars-grid">
+        <div class="ecosystem-card reveal">
+          <div class="ecosystem-card-num">01</div>
+          <h4 class="ecosystem-card-title">Hospitality: Crafting Sanctuaries</h4>
+          <p class="ecosystem-card-desc">In the hospitality sector, J’S Luxury redefines comfort. Mr. Idahosa envisions spaces that offer more than just accommodation; they are curated escapes designed for the modern connoisseur. From world-class service to immersive environments, the focus remains on delivering bespoke, unforgettable moments for every guest.</p>
+        </div>
+
+        <div class="ecosystem-card reveal">
+          <div class="ecosystem-card-num">02</div>
+          <h4 class="ecosystem-card-title">Real Estate: Building the Future</h4>
+          <p class="ecosystem-card-desc">Through an avant-garde approach to property development, J’S Luxury transforms landscapes into thriving communities. The real estate division focuses on architectural brilliance, functional elegance, and high-value investments, ensuring every project stands as a testament to modern design and long-term sustainability.</p>
+        </div>
+
+        <div class="ecosystem-card reveal">
+          <div class="ecosystem-card-num">03</div>
+          <h4 class="ecosystem-card-title">Fashion: Elegance in Motion</h4>
+          <p class="ecosystem-card-desc">The J'S Luxury fashion wing merges timeless sophistication with contemporary trends. By prioritizing premium materials, ethical production, and impeccable craftsmanship, Mr. Idahosa has cultivated a brand identity that empowers individuals to express their success and individuality with confidence.</p>
+        </div>
+
+        <div class="ecosystem-card reveal">
+          <div class="ecosystem-card-num">04</div>
+          <h4 class="ecosystem-card-title">Farming: Rooted in Sustainability</h4>
+          <p class="ecosystem-card-desc">Grounding the conglomerate's high-end ventures is a deep commitment to the earth. The farming division leverages innovative, eco-conscious agricultural practices to drive food security and produce premium-quality yields. It is a powerful reflection of Mr. Idahosa’s dedication to sustainable growth and community enrichment.</p>
+        </div>
+      </div>
+
+      <div class="ecosystem-legacy reveal">
+        <div class="ecosystem-legacy-title">
+          <h3>A Legacy of<br /><em>Innovation &amp; Trust</em></h3>
+        </div>
+        <div class="ecosystem-legacy-desc">
+          <p>What truly separates Osasu J Idahosa in the modern business landscape is his ability to harmonize these diverse industries under one cohesive brand identity. He operates at the nexus of luxury and responsibility—proving that high-end experiences and sustainable practices are not mutually exclusive, but rather deeply complementary.</p>
+          <p>Through J’S Luxury, Mr. Idahosa continues to set new benchmarks. He is not just building a company; he is cultivating a legacy of excellence, establishing an empire where innovation meets tradition, and where every client, partner, and guest is invited to experience the extraordinary.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ VENTURES ============ -->
   <section class="ventures" id="ventures">
     <div class="ventures-shell">
@@ -194,12 +266,22 @@
       <div class="ventures-grid" id="ventures-grid">
         <article class="venture-card venture-card--feature" id="venture-osaka">
           <div class="venture-visual">
-            <img src="image assets /Building 1.jpg" alt="Osaka Apartments exterior in Benin City" class="venture-photo" />
+            <img src="image-assets/Building 1.jpg" alt="Osaka Apartments exterior in Benin City" class="venture-photo" />
+            <video class="venture-video" muted playsinline loop preload="metadata">
+              <source src="video-assets/Tokyo Residences Benin 2.mp4" type="video/mp4">
+            </video>
+            <div class="video-play-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
             <div class="venture-badge">Benin City</div>
+            <button class="venture-gallery-btn" id="gallery-btn-benin" data-gallery="benin" type="button" aria-label="View all Benin City property walkthrough videos">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+              View All Walkthroughs
+            </button>
           </div>
           <div class="venture-content">
             <div class="venture-logo-wrap">
-              <img src="image assets /Osaka logo.jpg" alt="Osaka Apartments by J's Luxury" class="venture-logo" id="osaka-logo" />
+              <img src="image-assets/Osaka logo.jpg" alt="Osaka Apartments by J's Luxury" class="venture-logo" id="osaka-logo" />
             </div>
             <p class="venture-kicker">Flagship Living Experience</p>
             <h3 class="venture-name" id="osaka-name">Osaka Apartments</h3>
@@ -222,12 +304,22 @@
 
         <article class="venture-card venture-card--feature" id="venture-tokyo">
           <div class="venture-visual">
-            <img src="image assets /interrior 3.jpg" alt="Tokyo Residencies interior staircase in Abuja" class="venture-photo" />
+            <img src="image-assets/interrior 3.jpg" alt="Tokyo Residencies interior staircase in Abuja" class="venture-photo" />
+            <video class="venture-video" muted playsinline loop preload="metadata">
+              <source src="video-assets/Tokyo Apartments Abuja.mp4" type="video/mp4">
+            </video>
+            <div class="video-play-indicator" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
             <div class="venture-badge">Abuja</div>
+            <button class="venture-gallery-btn" id="gallery-btn-abuja" data-gallery="abuja" type="button" aria-label="View all Abuja property walkthrough videos">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+              View All Walkthroughs
+            </button>
           </div>
           <div class="venture-content">
             <div class="venture-logo-wrap">
-              <img src="image assets /Tokyo residences Logo.jpg" alt="Tokyo Residencies by J's Luxury" class="venture-logo" id="tokyo-logo" />
+              <img src="image-assets/Tokyo residences Logo.jpg" alt="Tokyo Residencies by J's Luxury" class="venture-logo" id="tokyo-logo" />
             </div>
             <p class="venture-kicker">Capital City Presence</p>
             <h3 class="venture-name" id="tokyo-name">Tokyo Residencies</h3>
@@ -284,6 +376,71 @@
     </div>
   </section>
 
+  <!-- ============ FASHION & EDITORIAL ============ -->
+  <section class="fashion" id="fashion">
+    <div class="fashion-shell">
+      <div class="fashion-intro reveal" id="fashion-intro">
+        <div class="fashion-copy">
+          <p class="section-label" id="fashion-label">FASHION & EDITORIAL <span class="label-line"></span></p>
+          <h2 class="fashion-title" id="fashion-title">
+            Bridging High-Fashion<br />
+            with <em>Architectural Taste</em><br />
+            on the global stage.
+          </h2>
+        </div>
+      </div>
+
+      <div class="fashion-grid" id="fashion-grid">
+        <!-- Card 1: Louis Vuitton Tokyo Campaign -->
+        <article class="fashion-card fashion-card--feature reveal" id="fashion-card-main">
+          <button class="fashion-visual lightbox-trigger" type="button" data-lightbox-group="fashion" data-lightbox-src="image-assets/IMG_7194.jpg" data-lightbox-alt="Osasu Idahosa — Tokyo campaign visual" data-lightbox-caption="Louis Vuitton Tokyo Campaign — Fronted by Osasu Idahosa">
+            <img src="image-assets/IMG_7194.jpg" alt="Osasu Idahosa — international fashion modeling" class="fashion-photo" loading="lazy" />
+            <div class="fashion-badge">Tokyo · Campaign</div>
+          </button>
+          <div class="fashion-content">
+            <p class="fashion-kicker">5+ Years International Modeling</p>
+            <h3 class="fashion-name" id="fashion-name">International Style Catalyst</h3>
+            <p class="fashion-desc" id="fashion-desc">
+              For over five years, Osasu Idahosa has walked international runways and fronted campaigns for premier global luxury houses—including headlining campaigns for <strong>Louis Vuitton (LV) in Tokyo</strong> and top editorial brands globally. His modeling journey represents a rare blend of creative synergy, bridging the world of high fashion and architectural space.
+            </p>
+            <p class="fashion-desc-secondary">
+              This immersion in the upper echelons of global luxury directly shapes the interior philosophy, material curation, and tactile aesthetic of J's Luxury real estate. Osasu translates the lighting principles, structural forms, and elegant textures of the Tokyo runways directly into the guest experiences of Osaka Apartments and Tokyo Residencies.
+            </p>
+            <div class="fashion-meta">
+              <span>Tokyo, Japan</span>
+              <span>Louis Vuitton & Luxury Partners</span>
+              <span>5 Years International Campaigns</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2: Editorial & Runway Profile (IMG_7193) -->
+        <article class="fashion-card fashion-card--feature reveal" id="fashion-card-secondary">
+          <button class="fashion-visual lightbox-trigger" type="button" data-lightbox-group="fashion" data-lightbox-src="image-assets/MOdelling/IMG_7197.jpg" data-lightbox-alt="Osasu Idahosa — Runway Profile" data-lightbox-caption="High Fashion Runway Editorial — Osasu Idahosa">
+            <img src="image-assets/MOdelling/IMG_7197.jpg" alt="Osasu Idahosa — editorial presence" class="fashion-photo" loading="lazy" />
+            <div class="fashion-badge">Runway · International Leading Brands</div>
+          </button>
+          <div class="fashion-content">
+            <p class="fashion-kicker">Runway &amp; Editorial Presence</p>
+            <h3 class="fashion-name">Editorial Aesthetics</h3>
+            <p class="fashion-desc">
+              Osasu's modeling portfolio spans editorial layouts that balance raw industrial geometry with fluid, high-end styling. His editorial collaborations demonstrate a masterclass in modern proportion, styling, and creative direction, defining how brand stories are told visually.
+            </p>
+            <p class="fashion-desc-secondary">
+              This keen eye for silhouette and detailing is woven into the DNA of the J's Luxury brand. Whether it's selecting premium leather upholstery, coordinating rich tactile fabrics, or configuring dramatic architectural lighting, the artistic discipline of the fashion runway informs every creative design decision in our residences.
+            </p>
+            <div class="fashion-meta">
+              <span>Paris &amp; Milan</span>
+              <span>Runway Editorial</span>
+              <span>Creative Art Direction</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
   <!-- ============ PROPERTIES GALLERY ============ -->
   <section class="gallery" id="gallery">
     <div class="gallery-header">
@@ -291,20 +448,20 @@
       <h2 class="gallery-title" id="gallery-title">Crafted for the<br /><em>extraordinary.</em></h2>
     </div>
     <div class="gallery-grid" id="gallery-grid">
-      <button class="gallery-item gallery-item--tall lightbox-trigger" id="gallery-item-1" type="button" data-lightbox-group="spaces" data-lightbox-src="image assets /Building 1.jpg" data-lightbox-alt="Osaka Apartments exterior" data-lightbox-caption="Osaka Apartments · Benin City">
-        <img src="image assets /Building 1.jpg" alt="Osaka Apartments exterior" />
+      <button class="gallery-item gallery-item--tall lightbox-trigger" id="gallery-item-1" type="button" data-lightbox-group="spaces" data-lightbox-src="image-assets/Building 1.jpg" data-lightbox-alt="Osaka Apartments exterior" data-lightbox-caption="Osaka Apartments · Benin City">
+        <img src="image-assets/Building 1.jpg" alt="Osaka Apartments exterior" />
         <div class="gallery-overlay"><span>Osaka Apartments · Benin City</span></div>
       </button>
-      <button class="gallery-item lightbox-trigger" id="gallery-item-2" type="button" data-lightbox-group="spaces" data-lightbox-src="image assets /Interrior 1.jpg" data-lightbox-alt="Luxury bedroom interior" data-lightbox-caption="Premium Suite Interior">
-        <img src="image assets /Interrior 1.jpg" alt="Luxury bedroom interior" />
+      <button class="gallery-item lightbox-trigger" id="gallery-item-2" type="button" data-lightbox-group="spaces" data-lightbox-src="image-assets/Interrior 1.jpg" data-lightbox-alt="Luxury bedroom interior" data-lightbox-caption="Premium Suite Interior">
+        <img src="image-assets/Interrior 1.jpg" alt="Luxury bedroom interior" />
         <div class="gallery-overlay"><span>Premium Suite Interior</span></div>
       </button>
-      <button class="gallery-item lightbox-trigger" id="gallery-item-3" type="button" data-lightbox-group="spaces" data-lightbox-src="image assets /Interrior 2.jpg" data-lightbox-alt="Open plan living interior" data-lightbox-caption="Open Plan Living">
-        <img src="image assets /Interrior 2.jpg" alt="Open plan living interior" />
+      <button class="gallery-item lightbox-trigger" id="gallery-item-3" type="button" data-lightbox-group="spaces" data-lightbox-src="image-assets/Interrior 2.jpg" data-lightbox-alt="Open plan living interior" data-lightbox-caption="Open Plan Living">
+        <img src="image-assets/Interrior 2.jpg" alt="Open plan living interior" />
         <div class="gallery-overlay"><span>Open Plan Living</span></div>
       </button>
-      <button class="gallery-item gallery-item--wide lightbox-trigger" id="gallery-item-4" type="button" data-lightbox-group="spaces" data-lightbox-src="image assets /interrior 3.jpg" data-lightbox-alt="Tokyo Residencies staircase" data-lightbox-caption="Tokyo Residencies · Abuja">
-        <img src="image assets /interrior 3.jpg" alt="Tokyo Residencies staircase" />
+      <button class="gallery-item gallery-item--wide lightbox-trigger" id="gallery-item-4" type="button" data-lightbox-group="spaces" data-lightbox-src="image-assets/interrior 3.jpg" data-lightbox-alt="Tokyo Residencies staircase" data-lightbox-caption="Tokyo Residencies · Abuja">
+        <img src="image-assets/interrior 3.jpg" alt="Tokyo Residencies staircase" />
         <div class="gallery-overlay"><span>Tokyo Residencies · Abuja</span></div>
       </button>
     </div>
@@ -318,18 +475,45 @@
         <h2 class="media-title" id="media-title">The Man Behind<br /><em>the Brand.</em></h2>
       </div>
       <div class="media-mosaic" id="media-mosaic">
-        <button class="media-card media-card--hero lightbox-trigger" id="media-card-1" type="button" data-lightbox-group="media" data-lightbox-src="image assets /Osasu 4.jpg" data-lightbox-alt="Osasu Idahosa — cultural look" data-lightbox-caption="Osasu Idahosa — featured portrait">
-          <img src="image assets /Osasu 4.jpg" alt="Osasu Idahosa — cultural look" />
+        <!-- Card 1: Tall Vertical Hero -->
+        <button class="media-card media-card--hero lightbox-trigger" id="media-card-1" type="button" data-lightbox-group="media" data-lightbox-src="image-assets/Osasu 4.jpg" data-lightbox-alt="Osasu Idahosa — J's Luxury Founder" data-lightbox-caption="Osasu Idahosa — CEO & Founder of J's Luxury">
+          <img src="image-assets/Osasu 4.jpg" alt="Osasu Idahosa — cultural style" />
+          <div class="media-tag">Osasu Idahosa — J's Luxury Founder</div>
         </button>
-        <button class="media-card lightbox-trigger" id="media-card-2" type="button" data-lightbox-group="media" data-lightbox-src="image assets /Osasu 2.jpg" data-lightbox-alt="Osasu Idahosa — evening style" data-lightbox-caption="Osasu Idahosa — evening style">
-          <img src="image assets /Osasu 2.jpg" alt="Osasu Idahosa — evening style" />
+
+        <!-- Card 2: Style Profile — profile modal trigger -->
+        <button class="media-card profile-trigger" id="media-card-2" type="button" data-profile="style-profile" aria-haspopup="dialog">
+          <img src="image-assets/MOdelling/IMG_7196.jpg" alt="Osasu Idahosa — evening style" />
+          <div class="media-tag">Style Profile</div>
+          <div class="profile-trigger-hint">Read More →</div>
         </button>
-        <button class="media-card lightbox-trigger" id="media-card-3" type="button" data-lightbox-group="media" data-lightbox-src="image assets /Osasu 3.jpg" data-lightbox-alt="Osasu Idahosa with friend" data-lightbox-caption="Osasu Idahosa — personal moment">
-          <img src="image assets /Osasu 3.jpg" alt="Osasu Idahosa with friend" />
+
+        <!-- Card 3: High Fashion Editorial — profile modal trigger -->
+        <button class="media-card profile-trigger" id="media-card-3" type="button" data-profile="fashion-editorial" aria-haspopup="dialog">
+          <img src="image-assets/MOdelling/IMG_7195.jpg" alt="Osasu Idahosa — high fashion portrait" loading="lazy" />
+          <div class="media-tag">High Fashion Editorial</div>
+          <div class="profile-trigger-hint">Read More →</div>
         </button>
-        <button class="media-card media-card--family lightbox-trigger" id="media-card-4" type="button" data-lightbox-group="media" data-lightbox-src="image assets /Osasu and mother.jpg" data-lightbox-alt="Osasu Idahosa with Archbishop Margaret Idahosa" data-lightbox-caption="With Mama — Archbishop Margaret Idahosa">
-          <img src="image assets /Osasu and mother.jpg" alt="Osasu Idahosa with Archbishop Margaret Idahosa" />
-          <div class="media-family-tag">With Mama — Archbishop Margaret Idahosa</div>
+
+        <!-- Card 4: Regular (Celebrity: Davido) — profile modal trigger -->
+        <button class="media-card profile-trigger" id="media-card-4" type="button" data-profile="davido" aria-haspopup="dialog">
+          <img src="image-assets/IMG_7192.jpg" alt="Osasu Idahosa with Davido" loading="lazy" />
+          <div class="media-tag">With Davido — Global Icon</div>
+          <div class="profile-trigger-hint">Read Profile →</div>
+        </button>
+
+        <!-- Card 5: Regular (Celebrity: Mr P) — profile modal trigger -->
+        <button class="media-card profile-trigger" id="media-card-5" type="button" data-profile="mrp" aria-haspopup="dialog">
+          <img src="image-assets/IMG_7191.jpg" alt="Osasu Idahosa with Mr P" loading="lazy" />
+          <div class="media-tag">With Mr P — Industry Leaders</div>
+          <div class="profile-trigger-hint">Read Profile →</div>
+        </button>
+
+        <!-- Card 6: Wide Banner (With Mama) — profile modal trigger -->
+        <button class="media-card media-card--family profile-trigger" id="media-card-6" type="button" data-profile="with-mama" aria-haspopup="dialog">
+          <img src="image-assets/Osasu and mother.jpg" alt="Osasu Idahosa with Archbishop Margaret Idahosa" />
+          <div class="media-tag">With Mama — Archbishop Margaret Idahosa</div>
+          <div class="profile-trigger-hint">Read More →</div>
         </button>
       </div>
     </div>
@@ -424,6 +608,183 @@
       <p class="footer-copy" id="footer-copy">© 2025 Osasu Idahosa — J's Luxury. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- ===== PROFILE MODAL: DAVIDO ===== -->
+  <div class="profile-modal" id="profile-davido" aria-hidden="true">
+    <div class="profile-modal-backdrop" id="profile-davido-backdrop"></div>
+    <div class="profile-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="profile-davido-title">
+      <button class="profile-modal-close" id="profile-davido-close" type="button" aria-label="Close profile">×</button>
+      <div class="profile-modal-image-wrap">
+        <img src="image-assets/IMG_7192.jpg" alt="Osasu Idahosa with Davido" class="profile-modal-img" />
+        <div class="profile-modal-name-badge">Davido</div>
+      </div>
+      <div class="profile-modal-content">
+        <p class="profile-modal-eyebrow">Network · Power Circle</p>
+        <h2 class="profile-modal-title" id="profile-davido-title">David Adeleke<br /><em>aka Davido</em></h2>
+        <p class="profile-modal-subtitle">Grammy-Nominated Global Music Icon · Philanthropist · Entrepreneur · Record Label CEO</p>
+        <div class="profile-modal-divider"></div>
+        <div class="profile-modal-body">
+          <p>David Adedeji Adeleke — the man the world knows as Davido — stands as one of the most consequential cultural exports Africa has ever produced. Born in Atlanta and raised across two continents, Davido is the scion of one of Nigeria's most distinguished business dynasties, yet chose to stake his own name on the global stage of music — and did so with resounding, undeniable success.</p>
+          <p>His discography spans over a decade of chart dominance: from the breakout <strong>"Back When"</strong> to the Grammy-nominated album <strong>"A Better Time"</strong>, his music has soundtracked a generation across five continents. With well over 100 million combined streams and sold-out concert tours across Africa, Europe, and North America, Davido has made Afrobeats a truly worldwide genre.</p>
+          <p>But the stage is only one theatre for his ambition. As the CEO of <strong>Davido Music Worldwide (DMW)</strong> — the label that launched careers including Mayorkun, Dremo, and Peruzzi — he has proven himself a talent architect of the first order. His brand partnerships span Martell Cognac, Infinix Mobile, and international fashion labels, while his production company handles extensive entertainment and media interests.</p>
+          <p>Perhaps most telling of the man's character is his philanthropic record. The <strong>David Adeleke Foundation</strong> has directed millions toward education, healthcare, and youth development in Nigeria and across Africa — a generosity that speaks of someone who understands that influence, properly deployed, can reshape communities.</p>
+          <p>To be within Davido's orbit is to occupy a rare altitude. For Osasu Idahosa — a founder building J's Luxury into a household name at the intersection of premium real estate, hospitality, and fashion — such connections are not incidental. They are the natural outcome of operating at the same level of ambition.</p>
+        </div>
+        <div class="profile-modal-tags">
+          <span>Afrobeats Global Icon</span>
+          <span>Grammy-Nominated</span>
+          <span>DMW Label CEO</span>
+          <span>Philanthropist</span>
+          <span>Brand Ambassador</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PROFILE MODAL: MR P ===== -->
+  <div class="profile-modal" id="profile-mrp" aria-hidden="true">
+    <div class="profile-modal-backdrop" id="profile-mrp-backdrop"></div>
+    <div class="profile-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="profile-mrp-title">
+      <button class="profile-modal-close" id="profile-mrp-close" type="button" aria-label="Close profile">×</button>
+      <div class="profile-modal-image-wrap">
+        <img src="image-assets/IMG_7191.jpg" alt="Osasu Idahosa with Mr P" class="profile-modal-img" />
+        <div class="profile-modal-name-badge">Mr P</div>
+      </div>
+      <div class="profile-modal-content">
+        <p class="profile-modal-eyebrow">Network · Power Circle</p>
+        <h2 class="profile-modal-title" id="profile-mrp-title">Peter Okoye<br /><em>aka Mr P</em></h2>
+        <p class="profile-modal-subtitle">Solo Artiste · Entertainment Entrepreneur · Fitness Icon · P-Square Principal</p>
+        <div class="profile-modal-divider"></div>
+        <div class="profile-modal-body">
+          <p>Peter Okoye — Mr P — represents one of the most compelling second-acts in African entertainment. As one-half of <strong>P-Square</strong>, the twin-brother duo that shattered attendance records and dominated continental charts for over a decade, Peter Okoye built a legacy that few artists ever achieve. The group became the most commercially successful music act in African history — selling out stadiums across Africa, Europe, and North America.</p>
+          <p>Their catalogue — <strong>"Do Me," "Personally," "Chop My Money," "No One Like You"</strong> — remains embedded in the cultural memory of an entire continent. At their peak, P-Square commanded multi-million dollar brand deals, filled 50,000-seat stadiums, and won virtually every major African music award available.</p>
+          <p>His reinvention as <strong>Mr P</strong> — launched as a solo artiste in 2017 — demonstrated both courage and craft. Rather than resting on a gilded legacy, he built a new one. With high-energy performances, fashion-forward aesthetics, and a social media following in the tens of millions, Mr P has shown that the second chapter can be as powerful as the first.</p>
+          <p>Beyond music, Peter Okoye is a <strong>real estate investor</strong>, fitness entrepreneur, and vocal advocate for mental health and personal resilience. His pursuit of physical excellence — evident in one of the most celebrated physiques in Nigerian entertainment — mirrors the discipline he brings to every facet of his professional life.</p>
+          <p>The shared frequency between Mr P and Osasu Idahosa is unmistakable: both are men who have chosen to take their inheritance — of talent, legacy, and ambition — and compound it deliberately. For J's Luxury, associations of this calibre do not require explanation. They speak for themselves.</p>
+        </div>
+        <div class="profile-modal-tags">
+          <span>Afrobeats Legend</span>
+          <span>Solo Artiste</span>
+          <span>P-Square</span>
+          <span>Real Estate Investor</span>
+          <span>Fitness Icon</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PROFILE MODAL: STYLE PROFILE ===== -->
+  <div class="profile-modal" id="profile-style-profile" aria-hidden="true">
+    <div class="profile-modal-backdrop" id="profile-style-profile-backdrop"></div>
+    <div class="profile-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="profile-style-profile-title">
+      <button class="profile-modal-close" id="profile-style-profile-close" type="button" aria-label="Close profile">×</button>
+      <div class="profile-modal-image-wrap">
+        <img src="image-assets/MOdelling/IMG_7196.jpg" alt="Osasu Idahosa — Style Profile" class="profile-modal-img" />
+        <div class="profile-modal-name-badge">Style Profile</div>
+      </div>
+      <div class="profile-modal-content">
+        <p class="profile-modal-eyebrow">Personal Brand · Style Identity</p>
+        <h2 class="profile-modal-title" id="profile-style-profile-title">Osasu Idahosa<br /><em>The Art of Presence</em></h2>
+        <p class="profile-modal-subtitle">Founder &amp; CEO of J’s Luxury · The Man Behind the Brand</p>
+        <div class="profile-modal-divider"></div>
+        <div class="profile-modal-body">
+          <p>Style, for Osasu Idahosa, is not an afterthought. It is a declaration.</p>
+          <p>In a world of noise and imitation, Osasu’s approach to dressing is one of measured intent — each outfit a carefully considered statement of who he is, what he builds, and the standard to which he holds himself. His wardrobe is not loud. It does not seek attention. It commands it.</p>
+          <p>Where most default to the conventional, Osasu gravitates toward pieces that carry weight: tailored silhouettes that speak of discernment, fabrics that reward proximity, and colours that feel considered rather than curated by algorithm. His aesthetic sits at the precise intersection of Lagos confidence and international refinement — neither pretending to be what it is not, nor diminishing what it is.</p>
+          <p>This instinct for visual precision is no accident. It is the same eye that designs the interiors of <strong>Osaka Apartments</strong> and <strong>Tokyo Residencies</strong>. The same taste that elevates a hospitality brand into a luxury experience. Osasu understands, at a foundational level, that how something looks is inseparable from how it feels — and how it feels shapes how people remember it.</p>
+          <p>His style, then, is not separate from his brand. It is the first version of it — walking, breathing, arriving in every room before he speaks a word.</p>
+        </div>
+        <div class="profile-modal-tags">
+          <span>Personal Branding</span>
+          <span>Sartorial Excellence</span>
+          <span>CEO Fashion</span>
+          <span>Luxury Aesthetics</span>
+          <span>Brand Identity</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PROFILE MODAL: HIGH FASHION EDITORIAL ===== -->
+  <div class="profile-modal" id="profile-fashion-editorial" aria-hidden="true">
+    <div class="profile-modal-backdrop" id="profile-fashion-editorial-backdrop"></div>
+    <div class="profile-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="profile-fashion-editorial-title">
+      <button class="profile-modal-close" id="profile-fashion-editorial-close" type="button" aria-label="Close profile">×</button>
+      <div class="profile-modal-image-wrap">
+        <img src="image-assets/MOdelling/IMG_7195.jpg" alt="Osasu Idahosa — High Fashion Editorial" class="profile-modal-img" />
+        <div class="profile-modal-name-badge">Editorial</div>
+      </div>
+      <div class="profile-modal-content">
+        <p class="profile-modal-eyebrow">Fashion · Editorial Presence</p>
+        <h2 class="profile-modal-title" id="profile-fashion-editorial-title">Osasu Idahosa<br /><em>The Editorial Frame</em></h2>
+        <p class="profile-modal-subtitle">High Fashion Portrait · The Visual Language of Luxury</p>
+        <div class="profile-modal-divider"></div>
+        <div class="profile-modal-body">
+          <p>A photograph, properly taken, is a manifesto.</p>
+          <p>In the world of high fashion editorial, the image is never simply a record — it is a point of view, a curated argument for how luxury, identity, and aspiration converge in a single human being. Osasu Idahosa understands this intuitively, and nowhere is it more evident than in his editorial work.</p>
+          <p>The camera finds in him what rooms of people often sense but struggle to articulate: a quality of contained power. There is ease in his posture that does not come from indifference, but from certainty — the specific confidence of a man who has built something real, who occupies a life of genuine construction rather than a borrowed one.</p>
+          <p>Fashion, for Osasu, is a medium for that communication. The editorial frame strips away context and forces presence: only the subject, the light, and the truth of how they hold themselves. What remains in his portraits is a man who has done the work — in business, in discipline, in the cultivation of an aesthetic that belongs entirely to him.</p>
+          <p>These photographs are not branding exercises. They are evidence. Evidence of a personal standard that exists regardless of whether anyone is watching — and evidence that at J’s Luxury, the level of excellence you encounter flows directly from the person who built it.</p>
+        </div>
+        <div class="profile-modal-tags">
+          <span>High Fashion</span>
+          <span>Editorial Photography</span>
+          <span>Personal Brand</span>
+          <span>Visual Identity</span>
+          <span>Luxury Positioning</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PROFILE MODAL: WITH MAMA ===== -->
+  <div class="profile-modal" id="profile-with-mama" aria-hidden="true">
+    <div class="profile-modal-backdrop" id="profile-with-mama-backdrop"></div>
+    <div class="profile-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="profile-with-mama-title">
+      <button class="profile-modal-close" id="profile-with-mama-close" type="button" aria-label="Close profile">×</button>
+      <div class="profile-modal-image-wrap">
+        <img src="image-assets/Osasu and mother.jpg" alt="Osasu Idahosa with Archbishop Margaret Idahosa" class="profile-modal-img" />
+        <div class="profile-modal-name-badge">Mama</div>
+      </div>
+      <div class="profile-modal-content">
+        <p class="profile-modal-eyebrow">Family · Legacy · Faith</p>
+        <h2 class="profile-modal-title" id="profile-with-mama-title">Archbishop Margaret Idahosa<br /><em>Mama</em></h2>
+        <p class="profile-modal-subtitle">Archbishop · Church of God Mission International · Spiritual Leader &amp; Nigerian Icon</p>
+        <div class="profile-modal-divider"></div>
+        <div class="profile-modal-body">
+          <p>Some names carry civilizations.</p>
+          <p>Archbishop Margaret Idahosa is one of them. As the successor to the ministry of the late <strong>Archbishop Benson Andrew Idahosa</strong> — founder of the Church of God Mission International, the first Pentecostal Archbishop in Nigeria, and one of the most consequential Christian leaders in African history — Archbishop Margaret has borne a legacy with grace, conviction, and unwavering spiritual authority for decades.</p>
+          <p>Her late husband transformed the spiritual landscape of a continent. He founded <strong>Benson Idahosa University</strong> in Benin City — the institution that bears his name and shaped countless Nigerian professionals. His ministry reached nations, his voice carried across stadiums. And when he transitioned in 1998, it was Archbishop Margaret who stepped into that vast inheritance and held it with quiet, immovable strength.</p>
+          <p>Archbishop Margaret’s contribution is not merely custodial. She is a leader in her own right: a shepherd of thousands, a woman of institutional courage, and a figure whose influence on the spiritual and educational direction of Nigeria is profound and ongoing.</p>
+          <p>For Osasu Idahosa, this is not simply biography. This is the foundation. The values instilled in him — of excellence, integrity, service, and the belief that what you build in this world has meaning beyond profit — flow directly from this source. J’s Luxury is, in many ways, a reflection of a household where standards were not negotiated and greatness was expected, not merely aspired to.</p>
+          <p>To stand beside Mama is to understand where it all begins.</p>
+        </div>
+        <div class="profile-modal-tags">
+          <span>Archbishop Margaret Idahosa</span>
+          <span>Church of God Mission Intl.</span>
+          <span>Nigerian Legacy</span>
+          <span>Family &amp; Faith</span>
+          <span>Foundation of Excellence</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== VIDEO GALLERY MODAL ===== -->
+  <div class="video-gallery-modal" id="video-gallery-modal" aria-hidden="true">
+    <div class="video-gallery-backdrop" id="video-gallery-backdrop"></div>
+    <div class="video-gallery-dialog">
+      <button class="video-gallery-close" id="video-gallery-close" type="button" aria-label="Close video gallery">×</button>
+      <div class="video-gallery-header">
+        <p class="video-gallery-eyebrow">PROPERTY WALKTHROUGHS</p>
+        <h2 class="video-gallery-title" id="video-gallery-title">Osaka Apartments</h2>
+        <p class="video-gallery-subtitle" id="video-gallery-subtitle">Benin City · Premium Serviced Apartments</p>
+      </div>
+      <div class="video-gallery-grid" id="video-gallery-grid">
+        <!-- Videos populated dynamically by script.js -->
+      </div>
+    </div>
+  </div>
 
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
